@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88969B5220D85E48005F0D72 /* AAPLWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 88969B5120D85E48005F0D72 /* AAPLWeapon.m */; };
+		9C0EAE021BA9D44F004F26CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0EAE011BA9D44F004F26CB /* main.m */; };
+		9C0EAE0A1BA9D44F004F26CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C0EAE081BA9D44F004F26CB /* Main.storyboard */; };
+		9C0EAE111BA9D4AF004F26CB /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C0EAE101BA9D4AF004F26CB /* AAPLAppDelegate.m */; };
+		9C0EAE131BA9D4C0004F26CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C0EAE121BA9D4C0004F26CB /* Images.xcassets */; };
+		9C0EAE141BA9D4CA004F26CB /* game.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CFCF1471B68E4CE00686987 /* game.scnassets */; };
+		9C0EAE1C1BA9D4DA004F26CB /* AAPLGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA652E1ADBF90F006293CF /* AAPLGameView.m */; };
+		9C0EAE1D1BA9D4DA004F26CB /* AAPLGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA65311ADBF90F006293CF /* AAPLGameViewController.m */; };
+		9C0EAE1E1BA9D4DA004F26CB /* AAPLCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CA65501ADC127F006293CF /* AAPLCharacter.m */; };
+		9C0EAE261BA9D864004F26CB /* congratulations.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFCF14D1B68E4CE00686987 /* congratulations.png */; };
+		9C0EAE271BA9D864004F26CB /* congratulations_pandaMax.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFCF14E1B68E4CE00686987 /* congratulations_pandaMax.png */; };
+		9C0EAE281BA9D864004F26CB /* dpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFCF14F1B68E4CE00686987 /* dpad.png */; };
+		9C0EAE291BA9D864004F26CB /* FlowerEmpty.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFCF1501B68E4CE00686987 /* FlowerEmpty.png */; };
+		9C0EAE2A1BA9D864004F26CB /* FlowerFull.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFCF1511B68E4CE00686987 /* FlowerFull.png */; };
+		9C0EAE2B1BA9D864004F26CB /* ItemsPearl.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFCF1521B68E4CE00686987 /* ItemsPearl.png */; };
+		9C0EAE2C1BA9D864004F26CB /* MaxIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFCF1531B68E4CE00686987 /* MaxIcon.png */; };
+		9C7D93A61BAC863900DB9637 /* AAPLGameControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7D93A31BAC863900DB9637 /* AAPLGameControls.m */; };
+		9C8180B91BDA675800FE8C68 /* collect.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9C8180B31BDA675800FE8C68 /* collect.scnp */; };
+		9C8180BC1BDA675800FE8C68 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8180B41BDA675800FE8C68 /* confetti.png */; };
+		9C8180BF1BDA675800FE8C68 /* confetti.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9C8180B51BDA675800FE8C68 /* confetti.scnp */; };
+		9C8180C21BDA675800FE8C68 /* glow01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8180B61BDA675800FE8C68 /* glow01.png */; };
+		E677EF9420D5B798005FEC05 /* AAPLEnemy.m in Sources */ = {isa = PBXBuildFile; fileRef = E677EF9320D5B798005FEC05 /* AAPLEnemy.m */; };
+		E677EF9A20D5BA8E005FEC05 /* AAPLPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E677EF9920D5BA8E005FEC05 /* AAPLPlayer.m */; };
+		E677EF9D20D6098B005FEC05 /* SCNScene+LoadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E677EF9C20D6098B005FEC05 /* SCNScene+LoadAnimation.m */; };
+		E677EFA420D61509005FEC05 /* AAPLPowerUp.m in Sources */ = {isa = PBXBuildFile; fileRef = E677EFA320D61509005FEC05 /* AAPLPowerUp.m */; };
+		E677EFAB20D6FB88005FEC05 /* AAPLNodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E677EFAA20D6FB88005FEC05 /* AAPLNodeManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88969B5020D85E48005F0D72 /* AAPLWeapon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLWeapon.h; sourceTree = "<group>"; };
+		88969B5120D85E48005F0D72 /* AAPLWeapon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLWeapon.m; sourceTree = "<group>"; };
+		94CA652D1ADBF90F006293CF /* AAPLGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLGameView.h; sourceTree = "<group>"; };
+		94CA652E1ADBF90F006293CF /* AAPLGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLGameView.m; sourceTree = "<group>"; };
+		94CA65301ADBF90F006293CF /* AAPLGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLGameViewController.h; sourceTree = "<group>"; };
+		94CA65311ADBF90F006293CF /* AAPLGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLGameViewController.m; sourceTree = "<group>"; };
+		94CA65501ADC127F006293CF /* AAPLCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCharacter.m; sourceTree = "<group>"; };
+		94CA65521ADC129A006293CF /* AAPLCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCharacter.h; sourceTree = "<group>"; };
+		9C0EADFB1BA9D44F004F26CB /* Fox (Objective-C).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fox (Objective-C).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0EAE011BA9D44F004F26CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C0EAE091BA9D44F004F26CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C0EAE0B1BA9D44F004F26CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C0EAE0F1BA9D4AF004F26CB /* AAPLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLAppDelegate.h; sourceTree = "<group>"; };
+		9C0EAE101BA9D4AF004F26CB /* AAPLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLAppDelegate.m; sourceTree = "<group>"; };
+		9C0EAE121BA9D4C0004F26CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../Game assets/Images.xcassets"; sourceTree = "<group>"; };
+		9C7D93A31BAC863900DB9637 /* AAPLGameControls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLGameControls.m; sourceTree = "<group>"; };
+		9C7D93A71BAC8D7E00DB9637 /* AAPLGameViewControllerPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLGameViewControllerPrivate.h; sourceTree = "<group>"; };
+		9C8180B31BDA675800FE8C68 /* collect.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = collect.scnp; sourceTree = "<group>"; };
+		9C8180B41BDA675800FE8C68 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
+		9C8180B51BDA675800FE8C68 /* confetti.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = confetti.scnp; sourceTree = "<group>"; };
+		9C8180B61BDA675800FE8C68 /* glow01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glow01.png; sourceTree = "<group>"; };
+		9CFCF1471B68E4CE00686987 /* game.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = game.scnassets; sourceTree = "<group>"; };
+		9CFCF14D1B68E4CE00686987 /* congratulations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congratulations.png; sourceTree = "<group>"; };
+		9CFCF14E1B68E4CE00686987 /* congratulations_pandaMax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = congratulations_pandaMax.png; sourceTree = "<group>"; };
+		9CFCF14F1B68E4CE00686987 /* dpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dpad.png; sourceTree = "<group>"; };
+		9CFCF1501B68E4CE00686987 /* FlowerEmpty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlowerEmpty.png; sourceTree = "<group>"; };
+		9CFCF1511B68E4CE00686987 /* FlowerFull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlowerFull.png; sourceTree = "<group>"; };
+		9CFCF1521B68E4CE00686987 /* ItemsPearl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ItemsPearl.png; sourceTree = "<group>"; };
+		9CFCF1531B68E4CE00686987 /* MaxIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MaxIcon.png; sourceTree = "<group>"; };
+		E677EF9220D5B798005FEC05 /* AAPLEnemy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLEnemy.h; sourceTree = "<group>"; };
+		E677EF9320D5B798005FEC05 /* AAPLEnemy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLEnemy.m; sourceTree = "<group>"; };
+		E677EF9820D5BA8E005FEC05 /* AAPLPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLPlayer.h; sourceTree = "<group>"; };
+		E677EF9920D5BA8E005FEC05 /* AAPLPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLPlayer.m; sourceTree = "<group>"; };
+		E677EF9B20D6098B005FEC05 /* SCNScene+LoadAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCNScene+LoadAnimation.h"; sourceTree = "<group>"; };
+		E677EF9C20D6098B005FEC05 /* SCNScene+LoadAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SCNScene+LoadAnimation.m"; sourceTree = "<group>"; };
+		E677EFA220D61509005FEC05 /* AAPLPowerUp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLPowerUp.h; sourceTree = "<group>"; };
+		E677EFA320D61509005FEC05 /* AAPLPowerUp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLPowerUp.m; sourceTree = "<group>"; };
+		E677EFA520D6154B005FEC05 /* AAPLCollisionMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLCollisionMask.h; sourceTree = "<group>"; };
+		E677EFA920D6FB88005FEC05 /* AAPLNodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAPLNodeManager.h; sourceTree = "<group>"; };
+		E677EFAA20D6FB88005FEC05 /* AAPLNodeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAPLNodeManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C0EADF81BA9D44F004F26CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88969B4F20D85E33005F0D72 /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				88969B5020D85E48005F0D72 /* AAPLWeapon.h */,
+				88969B5120D85E48005F0D72 /* AAPLWeapon.m */,
+			);
+			path = Weapons;
+			sourceTree = "<group>";
+		};
+		94CA651B1ADBF90F006293CF = {
+			isa = PBXGroup;
+			children = (
+				9C0EADFC1BA9D44F004F26CB /* Foxy */,
+				94CA65251ADBF90F006293CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94CA65251ADBF90F006293CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C0EADFB1BA9D44F004F26CB /* Fox (Objective-C).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C0EADFC1BA9D44F004F26CB /* Foxy */ = {
+			isa = PBXGroup;
+			children = (
+				9C0EAE0F1BA9D4AF004F26CB /* AAPLAppDelegate.h */,
+				9C0EAE101BA9D4AF004F26CB /* AAPLAppDelegate.m */,
+				E677EFA020D61341005FEC05 /* Categories */,
+				E677EF9F20D6131C005FEC05 /* Views */,
+				E677EF9E20D61302005FEC05 /* View Controllers */,
+				E677EFA120D6134F005FEC05 /* Models */,
+				9CFCF1461B68E4CE00686987 /* Assets */,
+				9C0EAE0B1BA9D44F004F26CB /* Info.plist */,
+				9C0EAE001BA9D44F004F26CB /* Supporting Files */,
+			);
+			path = Foxy;
+			sourceTree = "<group>";
+		};
+		9C0EAE001BA9D44F004F26CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C0EAE011BA9D44F004F26CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C8180B21BDA675800FE8C68 /* Particle systems */ = {
+			isa = PBXGroup;
+			children = (
+				9C8180B31BDA675800FE8C68 /* collect.scnp */,
+				9C8180B41BDA675800FE8C68 /* confetti.png */,
+				9C8180B51BDA675800FE8C68 /* confetti.scnp */,
+				9C8180B61BDA675800FE8C68 /* glow01.png */,
+			);
+			path = "Particle systems";
+			sourceTree = "<group>";
+		};
+		9CFCF1461B68E4CE00686987 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9C0EAE081BA9D44F004F26CB /* Main.storyboard */,
+				9C0EAE121BA9D4C0004F26CB /* Images.xcassets */,
+				9CFCF1471B68E4CE00686987 /* game.scnassets */,
+				9CFCF14C1B68E4CE00686987 /* Overlays */,
+				9C8180B21BDA675800FE8C68 /* Particle systems */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9CFCF14C1B68E4CE00686987 /* Overlays */ = {
+			isa = PBXGroup;
+			children = (
+				9CFCF14D1B68E4CE00686987 /* congratulations.png */,
+				9CFCF14E1B68E4CE00686987 /* congratulations_pandaMax.png */,
+				9CFCF14F1B68E4CE00686987 /* dpad.png */,
+				9CFCF1501B68E4CE00686987 /* FlowerEmpty.png */,
+				9CFCF1511B68E4CE00686987 /* FlowerFull.png */,
+				9CFCF1521B68E4CE00686987 /* ItemsPearl.png */,
+				9CFCF1531B68E4CE00686987 /* MaxIcon.png */,
+			);
+			path = Overlays;
+			sourceTree = "<group>";
+		};
+		E677EF9E20D61302005FEC05 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C7D93A31BAC863900DB9637 /* AAPLGameControls.m */,
+				94CA65301ADBF90F006293CF /* AAPLGameViewController.h */,
+				9C7D93A71BAC8D7E00DB9637 /* AAPLGameViewControllerPrivate.h */,
+				94CA65311ADBF90F006293CF /* AAPLGameViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E677EF9F20D6131C005FEC05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94CA652D1ADBF90F006293CF /* AAPLGameView.h */,
+				94CA652E1ADBF90F006293CF /* AAPLGameView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E677EFA020D61341005FEC05 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E677EF9B20D6098B005FEC05 /* SCNScene+LoadAnimation.h */,
+				E677EF9C20D6098B005FEC05 /* SCNScene+LoadAnimation.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E677EFA120D6134F005FEC05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88969B4F20D85E33005F0D72 /* Weapons */,
+				E677EFD820D71BFD005FEC05 /* Characters */,
+				E677EFD120D70527005FEC05 /* powerUps */,
+				E677EFA520D6154B005FEC05 /* AAPLCollisionMask.h */,
+				E677EFA920D6FB88005FEC05 /* AAPLNodeManager.h */,
+				E677EFAA20D6FB88005FEC05 /* AAPLNodeManager.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E677EFD120D70527005FEC05 /* powerUps */ = {
+			isa = PBXGroup;
+			children = (
+				E677EFA220D61509005FEC05 /* AAPLPowerUp.h */,
+				E677EFA320D61509005FEC05 /* AAPLPowerUp.m */,
+			);
+			path = powerUps;
+			sourceTree = "<group>";
+		};
+		E677EFD820D71BFD005FEC05 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				94CA65521ADC129A006293CF /* AAPLCharacter.h */,
+				94CA65501ADC127F006293CF /* AAPLCharacter.m */,
+				E677EF9820D5BA8E005FEC05 /* AAPLPlayer.h */,
+				E677EF9920D5BA8E005FEC05 /* AAPLPlayer.m */,
+				E677EF9220D5B798005FEC05 /* AAPLEnemy.h */,
+				E677EF9320D5B798005FEC05 /* AAPLEnemy.m */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C0EADFA1BA9D44F004F26CB /* Fox OS X (Objective-C) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C0EAE0C1BA9D44F004F26CB /* Build configuration list for PBXNativeTarget "Fox OS X (Objective-C)" */;
+			buildPhases = (
+				9C0EADF71BA9D44F004F26CB /* Sources */,
+				9C0EADF81BA9D44F004F26CB /* Frameworks */,
+				9C0EADF91BA9D44F004F26CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fox OS X (Objective-C)";
+			productName = "Fox OS X (Objective-C)";
+			productReference = 9C0EADFB1BA9D44F004F26CB /* Fox (Objective-C).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94CA651C1ADBF90F006293CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AAPL;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					9C0EADFA1BA9D44F004F26CB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 94CA651F1ADBF90F006293CF /* Build configuration list for PBXProject "Foxy" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94CA651B1ADBF90F006293CF;
+			productRefGroup = 94CA65251ADBF90F006293CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C0EADFA1BA9D44F004F26CB /* Fox OS X (Objective-C) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C0EADF91BA9D44F004F26CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0EAE271BA9D864004F26CB /* congratulations_pandaMax.png in Resources */,
+				9C8180BF1BDA675800FE8C68 /* confetti.scnp in Resources */,
+				9C0EAE131BA9D4C0004F26CB /* Images.xcassets in Resources */,
+				9C0EAE2B1BA9D864004F26CB /* ItemsPearl.png in Resources */,
+				9C0EAE281BA9D864004F26CB /* dpad.png in Resources */,
+				9C0EAE2A1BA9D864004F26CB /* FlowerFull.png in Resources */,
+				9C0EAE291BA9D864004F26CB /* FlowerEmpty.png in Resources */,
+				9C0EAE0A1BA9D44F004F26CB /* Main.storyboard in Resources */,
+				9C0EAE141BA9D4CA004F26CB /* game.scnassets in Resources */,
+				9C8180C21BDA675800FE8C68 /* glow01.png in Resources */,
+				9C8180B91BDA675800FE8C68 /* collect.scnp in Resources */,
+				9C0EAE261BA9D864004F26CB /* congratulations.png in Resources */,
+				9C0EAE2C1BA9D864004F26CB /* MaxIcon.png in Resources */,
+				9C8180BC1BDA675800FE8C68 /* confetti.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C0EADF71BA9D44F004F26CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0EAE021BA9D44F004F26CB /* main.m in Sources */,
+				9C0EAE111BA9D4AF004F26CB /* AAPLAppDelegate.m in Sources */,
+				E677EF9D20D6098B005FEC05 /* SCNScene+LoadAnimation.m in Sources */,
+				E677EF9A20D5BA8E005FEC05 /* AAPLPlayer.m in Sources */,
+				9C0EAE1D1BA9D4DA004F26CB /* AAPLGameViewController.m in Sources */,
+				E677EF9420D5B798005FEC05 /* AAPLEnemy.m in Sources */,
+				E677EFAB20D6FB88005FEC05 /* AAPLNodeManager.m in Sources */,
+				9C0EAE1C1BA9D4DA004F26CB /* AAPLGameView.m in Sources */,
+				9C0EAE1E1BA9D4DA004F26CB /* AAPLCharacter.m in Sources */,
+				E677EFA420D61509005FEC05 /* AAPLPowerUp.m in Sources */,
+				9C7D93A61BAC863900DB9637 /* AAPLGameControls.m in Sources */,
+				88969B5220D85E48005F0D72 /* AAPLWeapon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C0EAE081BA9D44F004F26CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C0EAE091BA9D44F004F26CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94CA65461ADBF90F006293CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		94CA65471ADBF90F006293CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		9C0EAE0D1BA9D44F004F26CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Foxy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itba.foxy;
+				PRODUCT_MODULE_NAME = AAPLFoxObjC;
+				PRODUCT_NAME = "Fox (Objective-C)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C0EAE0E1BA9D44F004F26CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Foxy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.itba.foxy;
+				PRODUCT_MODULE_NAME = AAPLFoxObjC;
+				PRODUCT_NAME = "Fox (Objective-C)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94CA651F1ADBF90F006293CF /* Build configuration list for PBXProject "Foxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CA65461ADBF90F006293CF /* Debug */,
+				94CA65471ADBF90F006293CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C0EAE0C1BA9D44F004F26CB /* Build configuration list for PBXNativeTarget "Fox OS X (Objective-C)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C0EAE0D1BA9D44F004F26CB /* Debug */,
+				9C0EAE0E1BA9D44F004F26CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94CA651C1ADBF90F006293CF /* Project object */;
+}
